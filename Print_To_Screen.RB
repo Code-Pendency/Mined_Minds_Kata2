@@ -1,11 +1,2 @@
-print "Hello World"
-p "One"
-p "Two"
-p "Three"
-p "Four"
-p "Five"
-p "Six"
-p "Seven"
-p "Eight"
-p "Nine"
-p "Ten"
+p "Hello World"
+p *1..100
