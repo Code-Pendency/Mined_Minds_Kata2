@@ -1,10 +1,13 @@
 "Commit_Ex4.RB"
 
-def x
-	0
-end
+# def x
+# 	0
+# end
+x = 0
 
-101.times do |x|
+100.times do 
+
+x += 1
 
 if (x % 3 == 0) && (x % 5 == 0)
   p "mined_minds"
