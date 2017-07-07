@@ -14,15 +14,18 @@ class TestMMKotaFunction < Minitest::Test
   	assert_equal(2, mined(2))
   end
   def test_3_returns_mined
-  	p mined(3)
   	assert_equal("mined", mined(3))
   end
-  def test_4_returns_mined
-  	p mined(6)
+  def test_6_returns_mined
   	assert_equal("mined", mined(6))
   end
-  def test_5_returns_mined
-  	p mined(9)
+  def test_9_returns_mined
   	assert_equal("mined", mined(9))
+  end
+  def test_5_returns_minds
+  	assert_equal("minds", mined(5))
+  end
+  def test_10_returns_minds
+  	assert_equal("minds", mined(10))
   end
 end
