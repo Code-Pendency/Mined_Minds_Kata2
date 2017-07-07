@@ -1,9 +1,9 @@
 "MM Kota Function"
 
 def mined(num)
-	if num == 3
+	if num % 3 == 0
 		"mined"
-	else 
+	else
 		num
 	end
 end
