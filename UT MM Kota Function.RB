@@ -28,4 +28,7 @@ class TestMMKotaFunction < Minitest::Test
   def test_10_returns_minds
   	assert_equal("minds", mined(10))
   end
+  def test_15_returns_minds
+  	assert_equal("minedminds", mined(15))
+  end
 end
